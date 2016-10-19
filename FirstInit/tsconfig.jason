@@ -1,0 +1,12 @@
+{
+2.  "compilerOptions": {
+3.    "target": "es5",
+4.    "module": "commonjs",
+5.    "moduleResolution": "node",
+6.    "sourceMap": true,
+7.    "emitDecoratorMetadata": true,
+8.    "experimentalDecorators": true,
+9.    "removeComments": false,
+10.    "noImplicitAny": false
+11.  }
+12.}

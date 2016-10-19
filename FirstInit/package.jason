@@ -1,0 +1,43 @@
+{
+2.  "name": "angular-quickstart",
+3.  "version": "1.0.0",
+4.  "scripts": {
+5.    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+6.    "lite": "lite-server",
+7.    "postinstall": "typings install",
+8.    "tsc": "tsc",
+9.    "tsc:w": "tsc -w",
+10.    "typings": "typings"
+11.  },
+12.  "licenses": [
+13.    {
+14.      "type": "MIT",
+15.      "url": "https://github.com/angular/angular.io/blob/master/LICENSE"
+16.    }
+17.  ],
+18.  "dependencies": {
+19.    "@angular/common": "~2.1.0",
+20.    "@angular/compiler": "~2.1.0",
+21.    "@angular/core": "~2.1.0",
+22.    "@angular/forms": "~2.1.0",
+23.    "@angular/http": "~2.1.0",
+24.    "@angular/platform-browser": "~2.1.0",
+25.    "@angular/platform-browser-dynamic": "~2.1.0",
+26.    "@angular/router": "~3.1.0",
+27.    "@angular/upgrade": "~2.1.0",
+28.
+29.    "angular-in-memory-web-api": "~0.1.5",
+30.    "bootstrap": "^3.3.7",
+31.    "core-js": "^2.4.1",
+32.    "reflect-metadata": "^0.1.8",
+33.    "rxjs": "5.0.0-beta.12",
+34.    "systemjs": "0.19.39",
+35.    "zone.js": "^0.6.25"
+36.  },
+37.  "devDependencies": {
+38.    "concurrently": "^3.0.0",
+39.    "lite-server": "^2.2.2",
+40.    "typescript": "^2.0.3",
+41.    "typings":"^1.4.0"
+42.  }
+43.}
